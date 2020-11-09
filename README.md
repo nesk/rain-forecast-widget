@@ -1,14 +1,17 @@
 # Rain Forecast Widget
 
-Un widget iOS pour afficher avec précision les prévisions de pluie dans l'heure à venir. Basé sur les données de [Météo France](https://meteofrance.com/). Ne fonctionne qu'en 🇫🇷 France.
+[🇫🇷 Documentation en Français 🇫🇷](./README-FR.md)
 
-# Fonctionnalités
+An iOS widget displaying precise rain forecast for the next hour. Relies on data provided by [Météo France](https://meteofrance.com/). Works only in France.
 
-- ☔️ Affichage avec précision des prévisions de pluie pour l'heure à venir
-- 📍 Peut exploiter votre position actuelle
-- 🏙 Permet de configurer une ville spécifique à afficher
-- 📏 Supporte les trois tailles de widget
-- 🌓 Affichage adapté au dark mode
+# Features
+
+- ☔️ Display of precise rain forecast for the next hour
+- 📍 Can use your current location
+- 🏙 Allows to configure a specific town to display
+- 📏 Handles the three widget sizes
+- 🌓 Custom UI for light and dark modes
+- 🏴 Available in multiple languages
 
 <p align=center>
   <br>
@@ -17,23 +20,23 @@ Un widget iOS pour afficher avec précision les prévisions de pluie dans l'heur
 
 # Installation
 
-- Téléchargez l'app [Scriptable](https://scriptable.app/).
-- Créez un nouveau script dans l'app et collez le contenu du fichier [script.js](./script.js).
-- Ajoutez un nouveau widget sur l'accueil de votre iPhone et sélectionnez Scriptable.
-- Modifiez les paramètres du widget et choisissez le nom du script que vous avez créé.
-- Les prévisions de pluie pour votre position actuelle devrait alors s'afficher! 🌈
+- Download the [Scriptable](https://scriptable.app/) app.
+- Create a new script inside the app and past the contents of the [script.js](./script.js) file.
+- Add a new widget on your iPhone homescreen and select Scriptable.
+- Edit the widget parameters and select the name of the script you have created.
+- The rain forecast for your current location should displayed on your screen! 🌈
 
 # Configuration
 
-Vous pouvez choisir d'afficher les prévisions de pluie pour une ville spécifique en modifiant les paramètres du widget et tapant le nom de la ville souhaitée dans le champ `Parameter`:
+You can choose to display the rain forecast for a specific town by editing the widget parameters and by setting the name of the town you want in the `Parameter` field:
 
 <p align=center>
   <img src="./assets/config.png" height=300>
 </p>
 
-Si vous obtenez une erreur suite au renseignement de la ville, vérifiez [dans la recherche de Météo France](https://meteofrance.com/) (tout en haut) si la ville existe bien.
+If you get an error right after setting the town, check [in the search bar of Météo France](https://meteofrance.com/) (at the top) if the town exists.
 
-# Remerciements
+# Thanks to
 
 - [Simon B. Støvring](https://twitter.com/simonbs) for creating Scriptable
 - [Sunrise-Sunset](https://sunrise-sunset.org/api) for their free API
