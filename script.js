@@ -33,38 +33,47 @@ const lang = {
     'title.full': {
       fr: 'Pluie à venir',
       en: 'Rain forecast',
+      tr: 'Yağmur geliyor',
     },
     'title.short': {
       fr: 'Pluie',
       en: 'Rain',
+      tr: 'Yağmur',
     },
     'minutes': {
       fr: 'minutes',
       en: 'minutes',
+      tr: 'dakika',
     },
     'rain.none': {
       fr: 'Temps sec',
       en: 'Dry weather',
+      tr: 'Yağmursuz',
     },
     'rain.light': {
       fr: 'Pluie faible',
       en: 'Light rain',
+      tr: 'Hafif yağmurlu',
     },
     'rain.moderate': {
       fr: 'Pluie modérée',
       en: 'Moderate rain',
+      tr: 'Orta şiddetli yağmur',
     },
     'rain.heavy': {
       fr: 'Pluie forte',
       en: 'Heavy rain',
+      tr: 'Yoğun yağış',
     },
     'rain.unknown': {
       fr: 'Aucune information disponible',
       en: 'No information available',
+      tr: 'Bilgi bulunmamaktadır',
     },
     'error': {
       fr: 'Une erreur est survenue',
       en: 'An error occurred',
+      tr: 'Bir hata oluştu',
     },
   },
 
